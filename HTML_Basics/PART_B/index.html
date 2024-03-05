@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #1e2003;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            justify-content: space-between;
+        }
+        #navbar{
+            align-items: start;
+            display: flex;
+            align-items: center;
+        }
+        
+       button{
+        display: flex;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+       }
+      p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .main{
+        display:flex;
+      }
+    .box{
+        width: 300px;
+        height: 309px;
+        position: relative;
+        top: 50px;
+        left: 170px;
+        border: 2px solid black;
+        margin-right: 30px;
+    }
+    .container{
+        
+        padding: 0 90px;
+    }
+    body{
+        background-color: rgb(223, 154, 145);
+    }
+
+    </style>
+</head>
+   
+         <header>
+            <div id="navbar">
+                <h3 class="one">Learner.com</h3>
+                <nav>
+                <button >Sign Up</button>
+            </nav>
+            </div>
+         </header>
+         <body>
+        <div class="container">
+         <p>Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. 
+            Most languages have a type system consisting of different data types (such as integers and strings) and catch type errors where one 
+            type is given where another is expected.Many support user-defined types including abstract data types, often used for object-oriented programming. 
+            Implementation in the form of a compiler or interpreter allows programs to be translated into machine code and executed.</p>
+        </div>
+        <div class="main">
+            <div class="box">
+            <b>Procedural Programming Languages:</b><br>
+            <p>In this programming, the program is divided into functions or procedures. They are primarily insular sub-programs that perform a specific task. 
+            These procedures can be called from other program parts, allowing for flexible programming and code reuse. The priority is the systematic execution of a program. 
+            Further, it emphasizes the series of instructions and influences data stored in variables.</p>
+        </div>
+        <div class="box">
+            <b>Functional Programming Languages :</b><br>
+            <p>Unlike procedural languages, functional programming languages are more flexible. It is composed of a series of functions. This programming paradigm stresses the use 
+                of model computations and data transformation.Functional programming makes programs easier to reason with and increases their reliability. The functions solely operate 
+                on their input arguments. </p>
+            </div>
+        <div class="box">
+            <b>Object-oriented Programming Languages :</b><br>
+            <p>In an object-oriented programming language, objects define the data and the behavior of objects. These objects typically include data attributes representing the object's state 
+                and method. This language enables users to make a complex system with interconnected objects.This language hides implementation components from the outside world through encapsulation.</p>
+        </div>
+        </div>
+
+    </body>
+</html>
